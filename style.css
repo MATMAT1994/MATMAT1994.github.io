@@ -403,3 +403,17 @@ padding-bottom: 3em;
   color: black;
   font-weight: 300;
 }
+
+.agronegocios{
+  padding: 4em;
+}
+ .agronegocios .d, a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 3em;
+  color: black;
+  word-wrap: break-word;
+ }
+
+.agronegocios .d img{
+  max-width: 100%;
+}
