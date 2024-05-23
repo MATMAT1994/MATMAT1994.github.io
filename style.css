@@ -363,7 +363,7 @@ padding: 20px 0px 20px 0px;
     margin: 0 auto;   /* Centra el carrusel */
 }
 
-.custom-carousel .carousel-inner img {
+.custom-carousel1 .carousel-inner img {
     height: auto; /* Ajusta la altura según tus necesidades */
     object-fit: cover; /* Mantiene la proporción de las imágenes */
 }
