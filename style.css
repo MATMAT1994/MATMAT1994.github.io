@@ -196,6 +196,8 @@ html, body{
 .flex-item img {
 max-width: 100%; /* Asegura que las imágenes no excedan el tamaño del contenedor */
 height: auto; /* Mantiene la proporción de las imágenes */
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
 }
       
   
