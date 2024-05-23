@@ -1,7 +1,7 @@
 *{  margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html, body{
@@ -203,7 +203,7 @@ border-top-right-radius: 10px;
 .estaciones-cel h4{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgba(49, 49, 49, 0.856);
-  padding: 15px;
+  padding: 15px 15px 5px 15px;
   font-weight: 100;
 }
 
@@ -347,7 +347,7 @@ color: rgba(19, 19, 19, 0.856);
 .a, .b{
 text-align: center;
 font-size: 20px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 padding: 20px 10px 20px 10px;
 font-weight: 300;
 }
@@ -357,7 +357,7 @@ padding-top: 70px;
 }
 
 .logis h2{
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
 font-size: 50px;
 padding: 20px 0px 20px 0px;
