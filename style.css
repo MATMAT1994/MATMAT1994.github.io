@@ -407,7 +407,7 @@ padding-bottom: 3em;
 .agronegocios{
   padding: 4em;
 }
- .agronegocios .d, a{
+ .agronegocios .d, .agronegocios .d a{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
   word-wrap: break-word;
