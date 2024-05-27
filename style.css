@@ -416,3 +416,16 @@ padding-bottom: 3em;
 .agronegocios .d img{
   max-width: 100%;
 }
+
+.agro, .agronegocios{
+  display: flex;
+  justify-content: center;
+}
+
+.agro{
+  margin-top: 2em;
+}
+
+.agro img {
+  max-width: 100%;
+}
