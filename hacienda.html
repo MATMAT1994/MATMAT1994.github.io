@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASCUA S.A</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <div class="nav">
+          <div class="nombre">
+             <h2>PASCUA S.A</h2>
+             <h4>Grupo económico</h4>
+          </div>
+          <div class="logo">
+             <img src="fotos/logo1.png">
+          </div>  
+          <div class="menu">
+            <ul>
+                <li><a href="inicio.html">INICIO</a></li>
+                <li><a href="estacion.html">ESTACIONES DE SERVICIO</a></li>
+                <li><a href="logistica.html">LOGÍSTICA</a></li>
+                <li><a href="agro.html">AGRONEGOCIOS</a></li>
+                <li><a href="hacienda.html">HACIENDA</a></li>
+                <li><a href="trabaja.html">TRABAJÁ CON NOSOTROS</a></li>
+            </ul>
+          </div>
+          <div class="menu-hamb">
+            <button id="boton-hamburguesa">
+               <span>&#9776;</span>
+            </button>
+            <ul>
+                <li><a href="inicio.html">INICIO</a></li>
+                <li><a href="estacion.html">ESTACIONES DE SERVICIO</a></li>
+                <li><a href="logistica.html">LOGÍSTICA</a></li>
+                <li><a href="agro.html">AGRONEGOCIOS</a></li>
+                <li><a href="hacienda.html">HACIENDA</a></li>
+                <li><a href="trabaja.html">TRABAJÁ CON NOSOTROS</a></li>
+            </ul>
+          </div>
+       </div>
+       <script>
+         document.getElementById('boton-hamburguesa').addEventListener('click', function() {
+             var menu = document.querySelector('.menu-hamb ul');
+             menu.classList.toggle('mostrar');
+         });
+     </script>
+    </header>
+</body>
+</html>
