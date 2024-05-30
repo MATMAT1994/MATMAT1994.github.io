@@ -6,6 +6,8 @@
 
 html, body{
 height: 100%;
+  display: flex;
+flex-direction: column;
 }
 
 /*MENU*/
@@ -429,3 +431,30 @@ padding-bottom: 3em;
 .agro img {
   max-width: 100%;
 }
+
+footer.pie {
+  background-color: #f8f8f8;
+  padding: 1em 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  flex-shrink: 0; /* El footer no se encoge */
+}
+
+footer .container {
+  max-width: 100%;
+  margin: 0;
+}
+
+footer .footer-bottom {
+  font-size: 14px;
+  color: #666;
+}
+
+body > footer > div > div > p{
+  margin: 0;
+}
+
+.site-content {
+  flex: 1 0 auto; /* El contenido crece para ocupar el espacio disponible */
+}
+
