@@ -1,3 +1,16 @@
+document.addEventListener('DOMContentLoaded', function() {
+    var menuList = document.getElementById('menu-list').innerHTML;
+    document.getElementById('menu-list-hamb').innerHTML = menuList;
+
+    var botonHamburguesa = document.getElementById('boton-hamburguesa');
+    botonHamburguesa.addEventListener('click', function() {
+        var menu = document.getElementById('menu-list-hamb');
+        var isExpanded = botonHamburguesa.getAttribute('aria-expanded') === 'true';
+        menu.classList.toggle('mostrar');
+        botonHamburguesa.setAttribute('aria-expanded', !isExpanded);
+    });
+});
+
 const contenedor = document.querySelector(".estaciones-cel");
 
         function crearLlave(nombre, modelo, direccion, imgSrc) {
