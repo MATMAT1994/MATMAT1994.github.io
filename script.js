@@ -12,13 +12,13 @@ const contenedor = document.querySelector(".estaciones-cel");
             "fotos/shell_14_11zon.webp",
             "fotos/shell_14_11zon.webp",
             "fotos/pumaenergy_12_11zon.webp",
-            "fotos/PUEY_5_11zon.webp",
+            "fotos/puey_11_11zon.webp",
             "fotos/pumaflores_13_11zon.webp",
             // Añade más rutas de imágenes según sea necesario
         ];
 
         const modelos = [
-            "SHELL",
+            "SHELL - HOTEL",
             "SHELL",
             "PUMA ENERGY",
             "PUMA ENERGY",
@@ -27,11 +27,11 @@ const contenedor = document.querySelector(".estaciones-cel");
         ];
 
         const direcciones = [
-            "Tel: +54 9 2284 42-5553 - Rivadavia 5201, Olavarría, Provincia de Buenos Aires ",
-            "Tel:  - Gral. Paz 3014, Olavarría, Provincia de Buenos Aires ",
-            "Tel:  - Av. Del Valle y Av. Pringles, Olavarría, Provincia de Buenos Aires",
-            "Tel:  - Av. Pueyrredon y 25 de Mayo, Olavarría, Provincia de Buenos Aires ",
-            "Tel:  - RN3 80, Las Flores, Provincia de Buenos Aires ",
+            "Rivadavia 5201, Olavarría, Provincia de Buenos Aires. <br> Reservas al <a href=´tel:+54 9 2284 42-5553´><b>+54 9 2284 42-5553</b></a> o mandanos <a href=´mailto:hotelisaura@gmail.com´><b>email</b></a> ",
+            "Gral. Paz 3014, Olavarría, Provincia de Buenos Aires ",
+            "Av. Del Valle y Av. Pringles, Olavarría, Provincia de Buenos Aires",
+            "Av. Pueyrredon y 25 de Mayo, Olavarría, Provincia de Buenos Aires ",
+            "RN3 80, Las Flores, Provincia de Buenos Aires. <br> Tel: <a href=´tel:+54 9 2244 45-0467´><b>+54 9 2244 45-0467</b></a>",
             // Añade más precios según sea necesario
         ];
 
