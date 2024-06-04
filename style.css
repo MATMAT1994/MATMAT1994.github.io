@@ -99,7 +99,7 @@ font-size: 1em;
   padding: 10px 20px; /* Espaciado dentro de cada enlace */
   color: rgb(31, 29, 29);
   text-decoration: none;
-  margin: o;
+  margin: 0;
   }
 
 .menu-hamb ul li a:hover {
