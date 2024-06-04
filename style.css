@@ -6,7 +6,7 @@
 
 html, body{
 height: 100%;
-  display: flex;
+display: flex;
 flex-direction: column;
 }
 
@@ -72,7 +72,6 @@ font-size: 1em;
 /* Estilos específicos para el menú hamburguesa */
 .menu-hamb {
   display: none;
-  position: relative; /* Asegura que el ul absoluto se base en esta posición */
 }
 
 .menu-hamb ul {
@@ -100,6 +99,7 @@ font-size: 1em;
   padding: 10px 20px; /* Espaciado dentro de cada enlace */
   color: rgb(31, 29, 29);
   text-decoration: none;
+  margin: o;
   }
 
 .menu-hamb ul li a:hover {
@@ -148,19 +148,6 @@ font-size: 1em;
       display: flex;
       flex-direction: column;
   }
-}
-
-/*Portada de inicio*/
-
-.portada{
-display: flex;
-flex-direction: row;
-position: relative;
-width: 100%;
-height: calc(100% - 110px);
-padding-bottom: 56.25%; /* Relación de aspecto 16:9 (9 / 16 * 100%) */
-overflow: hidden;
-background-color: rgb(242, 244, 245);
 }
 
 /*Estaciones*/
@@ -215,10 +202,10 @@ border-top-right-radius: 10px;
 
 /*Inicio*/
 
-.portada{
-display: none;
-}  
-
+.custom-carousel1{
+  display: none;
+} 
+  
 .portada-cel{
 display: flex;
 flex-direction: column;
@@ -229,7 +216,10 @@ width: 100%;
 background-color: rgba(242, 244, 245, 0.493);
 }
 
-.portada-cel .est{
+.portada-cel .est,
+.portada-cel .log,
+.portada-cel .agron,
+.portada-cel .hac{
 display: flex;
 flex-direction: column; /* Cambia el orden de los elementos a columnas */
 align-items: center; /* Centra horizontalmente */
@@ -260,43 +250,8 @@ word-wrap: break-word;
 white-space: normal;
 text-align: center;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.portada-cel .log{
-margin-top: 50px;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-.portada-cel .log span{
-word-wrap: break-word;
-white-space: normal;
-}
-
-.portada-cel .agron{
-display: flex;
-flex-direction: column; /* Cambia el orden de los elementos a columnas */
-align-items: center; /* Centra horizontalmente */
-margin-top: 50px;
-}
-
-.portada-cel .agron span{
-word-wrap: break-word;
-white-space: normal;
-}
-
-.portada-cel .hac{
-display: flex;
-flex-direction: column; /* Cambia el orden de los elementos a columnas */
-align-items: center; /* Centra horizontalmente */
-margin-top: 50px;
-}
-  
-.portada-cel .hac span{
-word-wrap: break-word;
-white-space: normal;
 }}
+  
 
 @media (max-width: 600px){
 /*Estaciones*/
@@ -387,6 +342,10 @@ padding: 20px 0px 20px 0px;
     object-fit: cover; /* Mantiene la proporción de las imágenes */
 }
 
+.clientes{
+padding-bottom: 3em;
+}
+
 .clientes h5{
 text-align: center;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -399,10 +358,6 @@ flex-wrap: wrap;
 justify-content: center;
 width: 100vw;
 margin-top: 3em;
-}
-
-.clientes{
-padding-bottom: 3em;
 }
 
 .contacto{
@@ -419,28 +374,25 @@ padding-bottom: 3em;
 
 .agronegocios{
   padding: 4em;
+  display: flex;
+  justify-content: center;
 }
- .agronegocios .d, .agronegocios .d a{
+ .agronegocios .d, a{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 3em;
   color: black;
   word-wrap: break-word;
  }
 
-.agronegocios .d img{
+.agronegocios .d img,
+.agro img{
   max-width: 100%;
-}
-
-.agro, .agronegocios{
-  display: flex;
-  justify-content: center;
 }
 
 .agro{
   margin-top: 2em;
-}
-
-.agro img {
-  max-width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 footer.pie {
