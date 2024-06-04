@@ -469,3 +469,8 @@ body > footer > div > div > p{
   flex: 1 0 auto; /* El contenido crece para ocupar el espacio disponible */
 }
 
+body > div > div.item-1.flex-item > h4 > a,
+body > div > div.item-5.flex-item > h4 > a{
+  color: rgba(9, 9, 129, 0.801);
+}
+
