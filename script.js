@@ -40,7 +40,7 @@ const contenedor = document.querySelector(".estaciones-cel");
         ];
 
         const direcciones = [
-            `Rivadavia 5201, Olavarría, Provincia de Buenos Aires. <br> Reservas al <a href="tel:2284425553"><b>+54 9 2284 42-5553</b></a> o mandanos <a href="mailto:hotelisaura@gmail.com"><b>email</b></a> `,
+            `Rivadavia 5201, Olavarría, Provincia de Buenos Aires. <br> Reservas al <a href="tel:2284425553"><b>+54 9 2284 42-5553</b></a> o mandanos al <a href="mailto:hotelisaura@gmail.com"><b>email</b></a> `,
             `Gral. Paz 3014, Olavarría, Provincia de Buenos Aires `,
             `Av. Del Valle y Av. Pringles, Olavarría, Provincia de Buenos Aires`,
             `Av. Pueyrredon y 25 de Mayo, Olavarría, Provincia de Buenos Aires `,
