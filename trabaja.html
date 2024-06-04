@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="site-content">
-    <header>
+        <header>
        <div class="nav">
           <div class="nombre">
              <h2>PASCUA S.A</h2>
@@ -18,7 +18,7 @@
              <img src="fotos/logo1.png">
           </div>  
           <div class="menu">
-            <ul>
+            <ul id="menu-list">
                 <li><a href="index.html">INICIO</a></li>
                 <li><a href="estacion.html">ESTACIONES DE SERVICIO</a></li>
                 <li><a href="logistica.html">LOGÍSTICA</a></li>
@@ -26,27 +26,13 @@
                 <li><a href="hacienda.html">HACIENDA</a></li>
                 <li><a href="trabaja.html">TRABAJÁ CON NOSOTROS</a></li>
             </ul>
-          </div>
-          <div class="menu-hamb">
-            <button id="boton-hamburguesa">
-               <span>&#9776;</span>
+        </div>
+        <div class="menu-hamb">
+            <button id="boton-hamburguesa" aria-expanded="false" aria-controls="menu-list">
+                <span>&#9776;</span>
             </button>
-            <ul>
-                <li><a href="index.html">INICIO</a></li>
-                <li><a href="estacion.html">ESTACIONES DE SERVICIO</a></li>
-                <li><a href="logistica.html">LOGÍSTICA</a></li>
-                <li><a href="agro.html">AGRONEGOCIOS</a></li>
-                <li><a href="hacienda.html">HACIENDA</a></li>
-                <li><a href="trabaja.html">TRABAJÁ CON NOSOTROS</a></li>
-            </ul>
-          </div>
-       </div>
-       <script>
-         document.getElementById('boton-hamburguesa').addEventListener('click', function() {
-             var menu = document.querySelector('.menu-hamb ul');
-             menu.classList.toggle('mostrar');
-         });
-     </script>
+            <ul id="menu-list-hamb"></ul>
+        </div>
     </header>
     <div class="contacto">
         <p class="c">Si estás interesado en ser parte de nuestro grupo económico, te invitamos a enviarnos tu CV a  <a href="mailto:olavarecruit@gmail.com"><b>olavarecruit@gmail.com</b></a>.<br><br>
@@ -60,5 +46,6 @@
             </div>
         </div>
     </footer>
+<script src="script.js"></script>
 </body>
 </html>
