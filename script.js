@@ -24,9 +24,9 @@ const contenedor = document.querySelector(".estaciones-cel");
         const imagenes = [
             "fotos/shell_14_11zon.webp",
             "fotos/shell_14_11zon.webp",
-            "fotos/pumaenergy_12_11zon.webp",
-            "fotos/puey_11_11zon.webp",
-            "fotos/pumaflores_13_11zon.webp",
+            "fotos/delvalle.webp",
+            "fotos/puey_11zon.webp",
+            "fotos/pumaflores.webp",
             // Añade más rutas de imágenes según sea necesario
         ];
 
